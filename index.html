@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <h3>The current time is: <span id='time'></span></h3>
+    <form id="alarm-form">
+      <input type="time" name="alarm-set" id="alarm-set">
+      <button type="submit" id="alarm-btn">Add this Alarm</button>
+    </form>
+    <div class="alarm-off">
+      <button type="button" name="snooze" id="snooze-btn">Snooze</button>
+      <label for="Change snooze amount">
+      <input type="number" id="snooze-amount" value="5">
+      </label>
+      <button type="button" id="alarm-off">Turn Alarm Off</button>
+    </div>
+    <h3>The current alarm is set for: <span id="alarm-time"></span></h3>
+
+  </body>
+</html>
